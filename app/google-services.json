@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109417986141",
+    "project_id": "money-talks-user",
+    "storage_bucket": "money-talks-user.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109417986141:android:8650824036b3c646b935b4",
+        "android_client_info": {
+          "package_name": "huyndph30375.fpoly.huyndph30375_assignment_full"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109417986141-u6o56v0dk2eq25rgqge50t2sntc1l5u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-HVUIijV-3rPnTCFi_ZgZ6pGZYhBtYeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109417986141-u6o56v0dk2eq25rgqge50t2sntc1l5u9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

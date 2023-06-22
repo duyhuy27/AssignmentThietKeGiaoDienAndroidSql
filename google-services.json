@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "194666543256",
+    "project_id": "money-talk-28f32",
+    "storage_bucket": "money-talk-28f32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194666543256:android:346e5e07d6ce6fec7ef8ed",
+        "android_client_info": {
+          "package_name": "huyndph30375.fpoly.huyndph30375_assignment_full"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194666543256-a01pbm53jjg3hhp7brqgplbvfonr8ace.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvYpFdGnFCF4pwJBc6otTz469D2nQskXk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194666543256-a01pbm53jjg3hhp7brqgplbvfonr8ace.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

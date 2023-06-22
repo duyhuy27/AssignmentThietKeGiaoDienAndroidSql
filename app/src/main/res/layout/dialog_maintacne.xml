@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_custom"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        tools:ignore="UselessParent">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baotri"
+            android:layout_gravity="center"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Function under maintenance"
+            android:layout_gravity="center"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:gravity="center"
+            android:fontFamily="@font/bold"
+            android:textSize="@dimen/_18ssp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="@color/primary"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+            android:weightSum="1">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/negative_action"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/d"
+                android:layout_margin="@dimen/_10sdp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/primary"
+                android:background="@drawable/background_button_cancle"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

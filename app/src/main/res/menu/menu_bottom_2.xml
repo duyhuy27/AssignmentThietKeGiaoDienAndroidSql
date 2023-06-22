@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Pay"
+        android:title="@string/expense1"
+        android:icon="@drawable/ic_change"/>
+
+    <item
+        android:id="@+id/Revenue"
+        android:title="@string/icome"
+        android:icon="@drawable/ic_wallettwo"/>
+
+</menu>

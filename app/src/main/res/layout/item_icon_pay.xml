@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="@dimen/_35sdp"
+        android:id="@+id/backgroundItem"
+        android:background="@drawable/backgorund_image"
+        android:layout_margin="@dimen/_5sdp"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="@dimen/_35sdp">
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerInParent="true"
+            android:id="@+id/imgIconPay"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_wallet"/>
+    </RelativeLayout>
+</layout>

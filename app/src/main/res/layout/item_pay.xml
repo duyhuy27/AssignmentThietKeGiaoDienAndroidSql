@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/backgroundItem"
+        android:layout_width="70dp"
+        android:background="@drawable/backgorund_image"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="70dp">
+        <ImageView
+            android:layout_width="@dimen/_13sdp"
+            android:layout_height="@dimen/_13sdp"
+            android:src="@drawable/ic_round_close_23"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/imgDelete" />
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imgIconPay"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:src="@drawable/ic_wallet"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/n_u_ng"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:id="@+id/txtTitlePay"
+            android:layout_below="@id/imgIconPay"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_8ssp"/>
+    </RelativeLayout>
+</layout>

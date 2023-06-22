@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_custom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_14sdp">
+            <ImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:src="@drawable/ic_round_close_24"
+                android:id="@+id/imgClose"/>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_category"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/bold"
+            android:textSize="@dimen/_18ssp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:textColor="@color/primary"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/namecategory"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textSize="@dimen/_12ssp"
+            android:fontFamily="@font/regulor"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/inputNameCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:hint="@string/input_the_name_of_category"
+            android:fontFamily="@font/regulor"
+            android:background="@drawable/background_input"
+            android:drawablePadding="@dimen/_10ssp"
+            android:imeOptions="actionNext"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_16sdp"
+            android:paddingEnd="@dimen/_16sdp"
+            android:textSize="@dimen/_13ssp" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerviewIconRevenue"
+            android:padding="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnAddCategoryRevenue"
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="@dimen/_50sdp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_button_large"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:fontFamily="@font/bold"
+            android:text="@string/submit"
+            android:textColor="@color/white_custom"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>
